@@ -654,7 +654,7 @@ export const AdminPortal: React.FC<Props> = ({
                     value={email} 
                     onChange={e => setEmail(e.target.value)} 
                     className={THEME.input.base + " bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"} 
-                    placeholder="admin@rathinam.in"
+                    placeholder="admin@yourcollege.ab"
                     required 
                     disabled={verifying}
                 />
