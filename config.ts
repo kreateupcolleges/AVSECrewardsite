@@ -147,7 +147,6 @@ export const BATCHES: BatchConfig[] = [
           }
         }
       } 
-            }
     }
   },
 
