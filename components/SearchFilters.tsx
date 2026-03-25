@@ -90,7 +90,7 @@ const SearchFilters: React.FC<Props> = ({
           </label>
           <input
             type="text"
-            placeholder="Ex: 25BAM000"
+            placeholder="Ex: 78912345678"
             value={values.regNo}
             onChange={(e) => onParamChange('regNo', e.target.value)}
             className={THEME.input.base}
@@ -101,7 +101,7 @@ const SearchFilters: React.FC<Props> = ({
           <label className={THEME.input.label}>Email</label>
           <input
             type="text"
-            placeholder="Ex: name@rathinam.in"
+            placeholder="Ex: name@yourcollege.ab"
             value={values.email}
             onChange={(e) => onParamChange('email', e.target.value)}
             className={THEME.input.base}
