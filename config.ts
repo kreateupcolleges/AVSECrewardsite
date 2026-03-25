@@ -146,7 +146,11 @@ export const BATCHES: BatchConfig[] = [
             ]
           }
         }
-      }, 
+      } 
+            }
+    }
+  },
+
         // --- END SEMESTER 1 ---
               // ============================================================
       // SEMESTER 2 (NEW — SAMPLE DATA, CHANGE SHEET IDs)
@@ -278,10 +282,7 @@ export const BATCHES: BatchConfig[] = [
   //         }
 
   //       }
-        
-      }
-    }
-  },
+
 
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
