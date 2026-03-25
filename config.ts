@@ -55,8 +55,8 @@ export const BATCHES: BatchConfig[] = [
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1AubezGWpgs4kNyfhTNOQFw7K4kH7ODxbjVWiX7Qz9eI", name: "AVS_2025-2029_S2_IP1_RewardsSplit" },
-          IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
+          IP1: { id: "1AubezGWpgs4kNyfhTNOQFw7K4kH7ODxbjVWiX7Qz9eI", name: "AVS_2025-2029_S2_IP1_RewardsSplit" }
+          // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
         internalMarksSheets: {
@@ -68,16 +68,16 @@ export const BATCHES: BatchConfig[] = [
             "B.Sc DS": { id: "1REu8iGo0gUzfdWwp38ar7Hu0-BUU8s", name: "B.Sc DS" },
             "B.Sc DSA": { id: "1OIuwHV4qU0utpYS72o_1PHZGn5Tc", name: "B.Sc DSA" },
             "B.Sc IT": { id: "1ZhgQe-wUxZYG8vs-j3LCE2TLpo", name: "B.Sc IT" }
-          },
-          IP2: {
-            "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
-            "B.Sc  CS with AI": { id: "1Z1iK7UpChhf4p5oDar2mhStX96s", name: "B.Sc  CS with AI" },
-            "B.Sc CS": { id: "1w-9Nxy6X1pMTBU8YTOXozsU", name: "B.Sc CS" },
-            "B.Sc DCFS": { id: "1sUdFzj8_LXMntv6tQgjy94rM", name: "B.Sc DCFS" },
-            "B.Sc DS": { id: "1usnswuhn5chnx58-XioTEk", name: "B.Sc DS" },
-            "B.Sc DSA": { id: "1v_ucgOpVWSYV50Z1Kiln_r593pg", name: "B.Sc DSA" },
-            "B.Sc IT": { id: "1BZ9VS712RmFe9X8HKAzoacym4", name: "B.Sc IT" }
           }
+          // IP2: {
+          //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
+          //   "B.Sc  CS with AI": { id: "1Z1iK7UpChhf4p5oDar2mhStX96s", name: "B.Sc  CS with AI" },
+          //   "B.Sc CS": { id: "1w-9Nxy6X1pMTBU8YTOXozsU", name: "B.Sc CS" },
+          //   "B.Sc DCFS": { id: "1sUdFzj8_LXMntv6tQgjy94rM", name: "B.Sc DCFS" },
+          //   "B.Sc DS": { id: "1usnswuhn5chnx58-XioTEk", name: "B.Sc DS" },
+          //   "B.Sc DSA": { id: "1v_ucgOpVWSYV50Z1Kiln_r593pg", name: "B.Sc DSA" },
+          //   "B.Sc IT": { id: "1BZ9VS712RmFe9X8HKAzoacym4", name: "B.Sc IT" }
+          // }
         },
 
         // --- SEMESTER 1 SUBJECTS ---
@@ -305,8 +305,8 @@ export const BATCHES: BatchConfig[] = [
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1ip9glBwpUx9CcLyirgj3IVa4F25qhKysQuZ8m662amU", name: "AVS_2024-2028_S4_IP1_RewardsSplit" },
-          "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
+          "IP1": { id: "1ip9glBwpUx9CcLyirgj3IVa4F25qhKysQuZ8m662amU", name: "AVS_2024-2028_S4_IP1_RewardsSplit" }
+          // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
         // Internal Marks for 2nd Year
