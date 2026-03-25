@@ -281,7 +281,7 @@ export const BATCHES: BatchConfig[] = [
         
   //     }
   //   }
-  // },
+  },
 
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
