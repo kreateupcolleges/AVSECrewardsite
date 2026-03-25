@@ -12,7 +12,7 @@ export const INSTITUTION_CONFIG = {
   name: "AVSEC Reward Points Site", 
   
   // URL to the college logo (Direct link to image)
-logoUrl: "https://drive.google.com/uc?export=view&id=1iggOjykgyqBgCrtr887amvH_O-CuUhh4"
+logoUrl: "https://lh3.googleusercontent.com/d/1HAi70zVEf7sfLXk4H8W7uPF_rbHMmqC9=w500"
 };
 
 /**
