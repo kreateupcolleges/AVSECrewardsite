@@ -20,7 +20,7 @@ export const INSTITUTION_CONFIG = {
  *  Sheet containing columns: Email Address, Password, Name, Department
  */
 export const ADMIN_AUTH_CONFIG = {
-  id: "1rkHuqB0EgAhdJhs15O_kZzVjJ2HfqQNPeI1NEqQQ67Y",
+  id: "15F12oZv8krN9JPCogO7e4i1nE5jsk5DJJuhdLxQ-zTQ",
   name: "Admin_Credentials"
 };
 
