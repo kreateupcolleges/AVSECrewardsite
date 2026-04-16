@@ -55,7 +55,7 @@ export const BATCHES: BatchConfig[] = [
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1AubezGWpgs4kNyfhTNOQFw7K4kH7ODxbjVWiX7Qz9eI", name: "AVS_2025-2029_S2_IP1_RewardsSplit" }
+          IP1: { id: "1W0revb6JjZqYHGvKBykvX7GyDx32fJFL72hNrXH5HD0", name: "AVS_2025-2029_All_S2_IP1_RewardSplit" }
           // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -305,7 +305,7 @@ export const BATCHES: BatchConfig[] = [
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1ip9glBwpUx9CcLyirgj3IVa4F25qhKysQuZ8m662amU", name: "AVS_2024-2028_S4_IP1_RewardsSplit" }
+          "IP1": { id: "1KJXzVhNVbrz9_2CuKS5-px-NmKVTMCFPF09TuZRMogg", name: "AVS_2024-2028_All_S4_IP1_RewardSplit" }
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
