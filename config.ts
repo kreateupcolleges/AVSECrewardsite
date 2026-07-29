@@ -29,8 +29,8 @@ export const ADMIN_AUTH_CONFIG = {
  *  Sheet containing columns: Email Address, Name, Register No, Department, Password
  */
 export const ELITE_AUTH_CONFIG = {
-  id: "1nIkD73XZ9uykJ_LRJM0GGBJCd73nUh0_xf2-_PGKeVI",
-  name: "Sheet1" 
+  id: "1qSul-NDwYgOALPDWVulLb2p0bn3XJYCcug010aQXxa4",
+  name: "AVS_ELITE_STUDENTS_LIST" 
 };
 
 
