@@ -50,7 +50,7 @@ export const BATCHES: BatchConfig[] = [
     label: 'Batch 2025 - 2029 (2nd Year)',
     semesters: {
       "1": { 
-        label: "Semester 2", 
+        label: "Semester 3", 
         internals: ["IP1", "IP2"],
         
         // --- SEMESTER 1 SHEETS ---
@@ -345,7 +345,7 @@ export const BATCHES: BatchConfig[] = [
     label: 'Batch 2024 - 2028 (3rd Year)',
     semesters: {
       "1": { 
-        label: "Semester 4", 
+        label: "Semester 5", 
         internals: ["IP1", "IP2"],
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
