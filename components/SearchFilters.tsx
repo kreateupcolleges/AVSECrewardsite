@@ -30,6 +30,8 @@ const SearchFilters: React.FC<Props> = ({
 }) => {
   const currentBatch = batches.find(b => b.id === selectedBatch);
   const semesters = currentBatch ? Object.keys(currentBatch.semesters) : [];
+  console.log("CURRENT BATCH:", currentBatch);
+console.log("SEMESTERS:", semesters);
   const currentSemConfig = currentBatch?.semesters[selectedSemester];
   const internals = currentSemConfig ? currentSemConfig.internals : [];
 
