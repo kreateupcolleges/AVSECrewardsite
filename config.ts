@@ -55,7 +55,7 @@ export const BATCHES: BatchConfig[] = [
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1Ee5ZOB9IVbXIKyfkFxA0Epow3E4iHSIVOtvsZ4Prc90", name: "AVS_2025-2029_All_S3_IP1_RewardSplit" }
+          IP1: { id: "1Ee5ZOB9IVbXIKyfkFxA0Epow3E4iHSIVOtvsZ4Prc90", name: "AVS_2025-2029_All_S3_IP1_RewardSplit" },
           // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -387,6 +387,8 @@ internalMarksSheets: {
   { code: "ME25C05", type: "Lab" }
 ]
           }
+       },
+}
 
      
 
@@ -413,7 +415,7 @@ internalMarksSheets: {
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1Jj_tiCcIlXWoSbta4LoPiSHe-c4wD0B0IfG8ftaxDWI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" }
+          "IP1": { id: "1Jj_tiCcIlXWoSbta4LoPiSHe-c4wD0B0IfG8ftaxDWI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" },
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -533,14 +535,14 @@ internalMarksSheets: {
         }
       }
     }
-  }
+  },
     "2": { 
         label: "Semester 4", 
         internals: ["IP1", "IP2"],
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1KJXzVhNVbrz9_2CuKS5-px-NmKVTMCFPF09TuZRMogg", name: "AVS_2024-2028_All_S4_IP1_RewardSplit" }
+          "IP1": { id: "1KJXzVhNVbrz9_2CuKS5-px-NmKVTMCFPF09TuZRMogg", name: "AVS_2024-2028_All_S4_IP1_RewardSplit" },
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
