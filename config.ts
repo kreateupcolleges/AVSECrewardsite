@@ -46,7 +46,7 @@ export const BATCHES: BatchConfig[] = [
   // BATCH 1: 2025 - 2028 (1st Year)
   // --------------------------------------------------------------------------
   {
-    id: 'batch-2025-2028',
+    id: 'batch-2025-2029',
     label: 'Batch 2025 - 2029 (2nd Year)',
     semesters: {
       "1": { 
@@ -189,11 +189,10 @@ export const BATCHES: BatchConfig[] = [
 //     { code: "CS25C07", type: "Lab+Theory", maxMarks: 20 },
 //     { code: "ME25C05", type: "Lab", maxMarks: 20 }
 //   ]
+      
           }
-  }
-   } 
-   }
-  },
+        }
+      },
 
         // --- END SEMESTER 1 ---
               // ============================================================
@@ -282,7 +281,7 @@ internalMarksSheets: {
          defaultMaxMarks: {
            Theory: 20,
            Lab: 20,
-          "Lab + Theory": 20
+          "Lab+Theory": 20
         },
 
          departments: {
@@ -387,8 +386,10 @@ internalMarksSheets: {
   { code: "ME25C05", type: "Lab" }
 ]
           }
-       },
+       }
 }
+    }
+  },
 
      
 
@@ -533,9 +534,7 @@ internalMarksSheets: {
   // ]
           }
         }
-      }
-    }
-  },
+     },
     "2": { 
         label: "Semester 4", 
         internals: ["IP1", "IP2"],
@@ -662,6 +661,7 @@ internalMarksSheets: {
       }
     }
   }
+  
 ];
 
 export const CATEGORY_CODES = ['CD', 'PCDP', 'SM', 'AC', 'RPA', 'SPL', 'OT'];
