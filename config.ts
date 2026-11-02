@@ -536,26 +536,26 @@ internalMarksSheets: {
         }
      },
     "2": { 
-        label: "Semester 4", 
+        label: "Semester 5", 
         internals: ["IP1", "IP2"],
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1KJXzVhNVbrz9_2CuKS5-px-NmKVTMCFPF09TuZRMogg", name: "AVS_2024-2028_All_S4_IP1_RewardSplit" },
+          "IP1": { id: "1Jj_tiCcIlXWoSbta4LoPiSHe-c4wD0B0IfG8ftaxDWI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" },
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-             "MECH": { id: "17ZOzCvPve7FwkfedX9Mc2NIIFirEpWbqB2JEQs2MzFk", name: "MECH" },
-             "BME": { id: "1usztgxeLA80WvG66c__R9shytxSXSr6IdsyE5e4edaQ", name: "BME" },
-             "CIVIL ENGINEERING": { id: "1WqpUIh5sbbM0S8cvIbYf4aQe-9ic8t3LNT15lIpeOdI", name: "CIVIL ENGINEERING" },
-             "AI&DS": { id: "17ZOzCvPve7FwkfedX9Mc2NIIFirEpWbqB2JEQs2MzFk", name: "AI&DS" },
-             "CSE": { id: "14tAZVlviH1y7CzynjqkDeI1Wex6o80rUPfFnF7rog-k", name: "CSE" },
-             "ECE": { id: "193xlpfKDF7_yDlPcJ_nr6gtWQhWBOb4liTaOmxEr0hI", name: "ECE" },
-             "EEE": { id: "1-8gCkbQN-wmxr1NvWunfEW65JJw7UiJY8Mz9z4RyDCo", name: "EEE" },
-             "IT": { id: "19mEAWIR_6hppQlAcgjgGLgy9vKfmOT0igAor8k_14YY", name: "IT" }
+             // "MECH": { id: "17ZOzCvPve7FwkfedX9Mc2NIIFirEpWbqB2JEQs2MzFk", name: "MECH" },
+             // "BME": { id: "1usztgxeLA80WvG66c__R9shytxSXSr6IdsyE5e4edaQ", name: "BME" },
+             // "CIVIL ENGINEERING": { id: "1WqpUIh5sbbM0S8cvIbYf4aQe-9ic8t3LNT15lIpeOdI", name: "CIVIL ENGINEERING" },
+             // "AI&DS": { id: "17ZOzCvPve7FwkfedX9Mc2NIIFirEpWbqB2JEQs2MzFk", name: "AI&DS" },
+             // "CSE": { id: "14tAZVlviH1y7CzynjqkDeI1Wex6o80rUPfFnF7rog-k", name: "CSE" },
+             // "ECE": { id: "193xlpfKDF7_yDlPcJ_nr6gtWQhWBOb4liTaOmxEr0hI", name: "ECE" },
+             // "EEE": { id: "1-8gCkbQN-wmxr1NvWunfEW65JJw7UiJY8Mz9z4RyDCo", name: "EEE" },
+             // "IT": { id: "19mEAWIR_6hppQlAcgjgGLgy9vKfmOT0igAor8k_14YY", name: "IT" }
           }
         },
 
@@ -567,95 +567,95 @@ internalMarksSheets: {
             "Lab+Theory": 20
           },
           departments: {
-"BME": [
-    { code: "MA3355", type: "Theory" },
-    { code: "BM3491", type: "Theory" },
-    { code: "BM3402", type: "Theory" },
-    { code: "BM3451", type: "Theory" },
-    { code: "BM3401", type: "Lab+Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "BM3411", type: "Lab" },
-    { code: "BM3412", type: "Lab" }
-  ],
+// "BME": [
+//     { code: "MA3355", type: "Theory" },
+//     { code: "BM3491", type: "Theory" },
+//     { code: "BM3402", type: "Theory" },
+//     { code: "BM3451", type: "Theory" },
+//     { code: "BM3401", type: "Lab+Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "BM3411", type: "Lab" },
+//     { code: "BM3412", type: "Lab" }
+//   ],
 
-  "ECE": [
-    { code: "EC3451", type: "Theory" },
-    { code: "EC3461", type: "Theory" },
-    { code: "EC3492", type: "Lab+Theory" },
-    { code: "EC3401", type: "Theory" },
-    { code: "EC3452", type: "Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "EC3462", type: "Lab" },
-    { code: "EC3461", type: "Lab" }
-  ],
+//   "ECE": [
+//     { code: "EC3451", type: "Theory" },
+//     { code: "EC3461", type: "Theory" },
+//     { code: "EC3492", type: "Lab+Theory" },
+//     { code: "EC3401", type: "Theory" },
+//     { code: "EC3452", type: "Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "EC3462", type: "Lab" },
+//     { code: "EC3461", type: "Lab" }
+//   ],
 
-  "CSE": [
-    { code: "CS3452", type: "Theory" },
-    { code: "CS3491", type: "Lab+Theory" },
-    { code: "CS3492", type: "Theory" },
-    { code: "CS3401", type: "Lab+Theory" },
-    { code: "CS3451", type: "Lab+Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "CS3461", type: "Lab" },
-    { code: "CS3481", type: "Lab" }
-  ],
+//   "CSE": [
+//     { code: "CS3452", type: "Theory" },
+//     { code: "CS3491", type: "Lab+Theory" },
+//     { code: "CS3492", type: "Theory" },
+//     { code: "CS3401", type: "Lab+Theory" },
+//     { code: "CS3451", type: "Lab+Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "CS3461", type: "Lab" },
+//     { code: "CS3481", type: "Lab" }
+//   ],
 
-  "AI&DS": [
-    { code: "CS3591", type: "Lab+Theory" },
-    { code: "AL3452", type: "Lab+Theory" },
-    { code: "AL3451", type: "Theory" },
-    { code: "AD3491", type: "Theory" },
-    { code: "MA3391", type: "Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "AD3411", type: "Lab" },
-    { code: "AL3461", type: "Lab" }
-  ],
+//   "AI&DS": [
+//     { code: "CS3591", type: "Lab+Theory" },
+//     { code: "AL3452", type: "Lab+Theory" },
+//     { code: "AL3451", type: "Theory" },
+//     { code: "AD3491", type: "Theory" },
+//     { code: "MA3391", type: "Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "AD3411", type: "Lab" },
+//     { code: "AL3461", type: "Lab" }
+//   ],
 
-  "CIVIL ENGINEERING": [
-    { code: "CE3401", type: "Theory" },
-    { code: "CE3402", type: "Theory" },
-    { code: "CE3403", type: "Theory" },
-    { code: "CE3404", type: "Theory" },
-    { code: "CE3405", type: "Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "CE3411", type: "Lab" },
-    { code: "CE3412", type: "Lab" },
-    { code: "CE3413", type: "Lab" }
-  ],
+//   "CIVIL ENGINEERING": [
+//     { code: "CE3401", type: "Theory" },
+//     { code: "CE3402", type: "Theory" },
+//     { code: "CE3403", type: "Theory" },
+//     { code: "CE3404", type: "Theory" },
+//     { code: "CE3405", type: "Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "CE3411", type: "Lab" },
+//     { code: "CE3412", type: "Lab" },
+//     { code: "CE3413", type: "Lab" }
+//   ],
 
-  "EEE": [
-    { code: "GE3451", type: "Theory" },
-    { code: "EE3401", type: "Theory" },
-    { code: "EE3402", type: "Theory" },
-    { code: "EE3403", type: "Theory" },
-    { code: "EE3404", type: "Theory" },
-    { code: "EE3405", type: "Theory" },
-    { code: "EE3411", type: "Lab" },
-    { code: "EE3412", type: "Lab" },
-    { code: "EE3413", type: "Lab" }
-  ],
+//   "EEE": [
+//     { code: "GE3451", type: "Theory" },
+//     { code: "EE3401", type: "Theory" },
+//     { code: "EE3402", type: "Theory" },
+//     { code: "EE3403", type: "Theory" },
+//     { code: "EE3404", type: "Theory" },
+//     { code: "EE3405", type: "Theory" },
+//     { code: "EE3411", type: "Lab" },
+//     { code: "EE3412", type: "Lab" },
+//     { code: "EE3413", type: "Lab" }
+//   ],
 
-  "IT": [
-    { code: "CS3452", type: "Theory" },
-    { code: "CS3453", type: "Lab+Theory" },
-    { code: "CS3454", type: "Theory" },
-    { code: "CS3455", type: "Lab+Theory" },
-    { code: "CS3456", type: "Theory" },
-    { code: "CS3457", type: "Theory" },
-    { code: "CS3458", type: "Lab" },
-    { code: "CS3459", type: "Lab" }
-  ],
+//   "IT": [
+//     { code: "CS3452", type: "Theory" },
+//     { code: "CS3453", type: "Lab+Theory" },
+//     { code: "CS3454", type: "Theory" },
+//     { code: "CS3455", type: "Lab+Theory" },
+//     { code: "CS3456", type: "Theory" },
+//     { code: "CS3457", type: "Theory" },
+//     { code: "CS3458", type: "Lab" },
+//     { code: "CS3459", type: "Lab" }
+//   ],
 
-  "MECHANICAL": [
-    { code: "ME3491", type: "Theory" },
-    { code: "ME3451", type: "Theory" },
-    { code: "ME3492", type: "Theory" },
-    { code: "ME3493", type: "Theory" },
-    { code: "CE3491", type: "Theory" },
-    { code: "GE3451", type: "Theory" },
-    { code: "CE3481", type: "Lab" },
-    { code: "ME3461", type: "Lab" }
-  ]
+//   "MECHANICAL": [
+//     { code: "ME3491", type: "Theory" },
+//     { code: "ME3451", type: "Theory" },
+//     { code: "ME3492", type: "Theory" },
+//     { code: "ME3493", type: "Theory" },
+//     { code: "CE3491", type: "Theory" },
+//     { code: "GE3451", type: "Theory" },
+//     { code: "CE3481", type: "Lab" },
+//     { code: "ME3461", type: "Lab" }
+//   ]
           }
         }
       }
